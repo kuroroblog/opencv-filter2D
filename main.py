@@ -12,6 +12,8 @@ img = cv2.imread("sample.jpg")
 if img is None:
     sys.exit("Could not read the image.")
 
+# filter2d関数 : 自分好みのフィルタを用意して、フィルタを通して画像を出力する関数
+
 # 第一引数(必須) : 多次元配列(numpy.ndarray)
 # 第二引数(必須) : 出力画像の型を指定する。
 # 第三引数(必須) : フィルタ。
